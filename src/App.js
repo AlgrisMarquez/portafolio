@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Fragment } from "react";
+//import Navbar from './Menu/Navbar';
+import "../assets/styles/componentscss/Home.scss";
+import NavBar from "./Menu/NavBar";
+import PRecientes from "./Proyect/RecientesProyect";
+import Contact from "./Contact/Contact";
+import Footer from "./Footer/Footer";
 
-function App() {
+const Home = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Fragment>
+        <div>
+            <NavBar style={{ width: "100vw" }} />
+        </div>
+        <div>
+            <PRecientes />
+        </div>
+        <div>
+            <Contact />
+        </div>
+        <div>
+            <Footer style={{ height: "492px", background: "#333333" }} />
+        </div>
+    </Fragment>
   );
-}
+};
 
-export default App;
+export default Home;

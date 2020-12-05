@@ -34,5 +34,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@iconify/icons-ei": "^1.1.0",
+    "@iconify/react": "^1.1.3",
+    "github": "^14.0.0",
+    "para": "0.0.2"
   }
 }
