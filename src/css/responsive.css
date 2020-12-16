@@ -1,0 +1,92 @@
+@media screen and (max-width: 800px){
+
+    header .title{
+        font-size: 3em;
+        width: 100%;
+    }
+
+    header .valor{
+        font-size: 1em;
+    }
+
+    main .about-me .media{
+        width: 90%;
+        justify-content: center;
+    }
+
+    main .about-me .media img{
+        width: 40%;
+    }
+
+    main .characteristics .character{
+        margin: auto;
+        width: 60%;
+        margin-bottom: 20px;
+    }
+    
+    .project-description div p{
+        display: block;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+   
+    header .title{
+        font-size: 2em;
+    }
+
+
+    main{
+        margin-top: 150px;
+    }
+
+    main .about-me{
+        background: #fff;
+        margin-bottom: 100px;
+    }
+
+    main .about-me article{
+        width: 90%;
+        font-size: .7em;
+    }
+
+    main .about-me article b{
+        font-size: 1em;
+    }
+
+    main .about-me .media{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    main .about-me .media img{
+        width: 40px;
+    }
+
+    main .characteristics{
+        margin-bottom: 150px;
+    }
+
+    main .characteristics .character{
+        width: 90%;
+    }
+
+    main .projects {
+        margin-bottom: 150px;
+    }
+    
+
+    main .skills .skill{
+        width: 40%;
+    }
+
+    main .skill img{
+        width: 100%;
+    }
+
+    footer .contact h2{
+        font-size: 2em;
+    }
+}
