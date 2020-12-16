@@ -6,9 +6,8 @@
     box-sizing: border-box;
     font-size: 16px;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
+    font-weight: 300;
 }
-
 img{
     vertical-align: top;
 }
@@ -16,7 +15,6 @@ a{
     text-decoration: none;
 }
 /* ================================== */
-
 /* HEADER */
 /* ================================== */
 
@@ -24,76 +22,67 @@ body{
     overflow-x: hidden;
 }
 
-
 header{
-    width: 100%;
+    /*width: 100%;
+    padding: 25vh;*/
     height: 100vh;
-    overflow: hidden;
-    padding: 25vh 0;
-    background: url('../source/img/presentacion.jpg'); 
+    overflow: hidden;    
+    background: url('../Medios/Fondo\ 9.jpg'); 
     background-position: center;
     background-size: cover;
     background-repeat: repeat;
     background-attachment: fixed;
-
     animation: in ;
     animation-iteration-count: initial;
     animation-duration: 3s;
 }
-
-
 header .title{
-
     width: 100%;
     text-align: center;
-    font-size: 4.6em;
-    font-weight: 700;
-    padding: 15px 0;
+    font-size: 3.6em;
+    font-weight: 500;
+   
     color: #fff;
-    background: rgba(218, 15, 133, 0.9);
+    background: #43696E;
 }
-
 header figure{
     text-align: center;
     margin: 30px 0;
+  
 }
-
 header figure img{
     width: 150px;
     border-radius: 50%;
-    border: 6px solid rgba(18, 165, 202, 0.637)
+    border: 2px solid #f9f9f9;
+    background: linear-gradient(180deg,
+     rgba(255, 255, 255, 0.5) 29.69%,
+      rgba(255, 255, 255, 0) 53.94%), #E7C444;;
 }
-
 header .valor{
     font-family: 'Montserrat', sans-serif;
     text-align: center;
-    color: white;
-    font-weight: 700;
     font-size: 1.2em;
+    color: #43696e;
+    font-weight: 700;
+    background: #f9f9f9;
+
 }
 /* ================================== */
-
 /* Main */
-
 main{
     width: 100%;
     margin-top: 200px;
 }
-
 /* ===ABOUT ME */
-
 main .about-me{
     font-family: 'Montserrat', sans-serif;
     width: 100%;
     position: relative;
     text-align: center;
-    background: rgb(226, 10, 118);
+    background: #43696E;
     padding: 40px 0;
     margin-bottom: 200px;
 }
-
-
-
 main .about-me article{
     font-family: 'Montserrat', sans-serif;
     width: 60%;
@@ -102,11 +91,9 @@ main .about-me article{
     line-height: 35px;
     margin-bottom: 40px;
 }
-
 main .about-me article b {
     font-weight: 700;       
 }
-
 main .about-me .media{
     width: 70%;
     margin: auto;
@@ -114,62 +101,17 @@ main .about-me .media{
     flex-direction: row;
     justify-content: space-around;
 }
-
 main .about-me .media img{
     width: 20%;
     margin: 0px 20px;
 }
-
-
-/* ===characteristics*/
-
-main .characteristics{
-    width: 90%;
-    margin: auto;
-    margin-bottom: 300px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-main .characteristics .character{
-    width: 20%;
-    padding: 30px;
-    text-align: center;
-    background: rgb(226, 10, 118);
-    transition: all .3s ease;
-}
-
-main .characteristics .character:hover{
-    transform: scale(1.1);
-    background: rgb(216,216,216);
-}
-
-main .characteristics .character .title{
-    font-weight: 700;
-    color: black;
-    margin: 10px 0;
-}
-
-main .characteristics .character .description{
-    font-weight: 300;
-    font-size: .9em;
-    color: black;
-}
-main .characteristics .character .description a{
-    color: black;
-}
-
 /* ===Projects */
-
 main .projects{
     width: 85%;
     max-width: 1200px;
     margin: auto;
     margin-bottom: 300px;
 }
-
 main .projects .title{
     font-size: 3em;
     color: black;
@@ -181,7 +123,6 @@ main .projects .description{
     font-size: 1.1em;
     margin-bottom: 100px;
 }
-
 main .projects .project-description{
     width: 100%;
     padding: 20px;
@@ -190,7 +131,6 @@ main .projects .project-description{
     text-align: center;
     color:black;
 }
-
     .project-description h2{
         font-size: 1.2em;
         font-weight: 700;
@@ -201,7 +141,7 @@ main .projects .project-description{
     }
 
     .project-description div{
-        background: rgb(209, 29, 89);
+        background: #43696E;
         margin-top: 20px;
         padding: 15px;
     }
@@ -214,15 +154,11 @@ main .projects .project-description{
     .project-description div p a{
         color: #fff;
     }
-
-
 /* ===Skills  */
-
 main .skills {
     width: 85%;
     margin: auto;
     max-width: 1500px;
-
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -237,7 +173,6 @@ main .skills .title{
     margin: auto;
     margin-bottom: 100px;    
 }
-
     .skill{
         width: 25%;
         text-align: center;
@@ -248,21 +183,17 @@ main .skills .title{
         flex-direction: column;
         justify-content: space-between;
     }
-
     .skill img{
         width: 140px;
         margin: auto;
         margin-bottom: 20px;
     }
-
     .skill p{
         width: 100%;
         font-weight: 700;
         text-align: center;
     }
 /* ============================== */
-
-
 /* Footer */
 footer{
     margin-top: 300px;
@@ -270,22 +201,52 @@ footer{
     /* background: rgb(57, 3, 73); */
     background: black;
 }
-
 footer .contact{
     width: 100%;
     margin: auto;
     text-align: center;
 }
-
 footer .contact h2 {
     font-size: 2em;
     color: #fff;
     font-weight: 300;
     margin-bottom: 40px;
 }
-
 footer .contact  p{
     color: #fff;
     font-weight: bold;
 }
-
+/* ===characteristics*/
+main .characteristics{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+main .characteristics .character{
+    width: 20%;
+    padding: 30px;
+    text-align: center;
+    background: #43696E;
+    transition: all .3s ease;
+}
+main .characteristics .character:hover{
+    transform: scale(1.1);
+    background: rgb(216,216,216);
+}
+main .characteristics .character .title{
+    font-weight: 700;
+    color: black;
+    margin: 10px 0;
+}
+main .characteristics .character .description{
+    font-weight: 300;
+    font-size: .9em;
+    color: black;
+}
+main .characteristics .character .description a{
+    color: black;
+}
